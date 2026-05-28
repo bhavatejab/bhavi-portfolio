@@ -1,16 +1,16 @@
 export default function Hero() {
   return (
-    <section className="text-center py-32 bg-gray-100">
-      <h1 className="text-5xl font-bold mb-6">
-        Build Modern Websites Faster
+    <section id = "home" className="text-center py-32">
+      <h1 className="text-6xl font-bold">
+        Hi, I'm Bhavi 👋
       </h1>
 
-      <p className="text-gray-600 mb-8">
-        Learn Next.js + Tailwind with AI
+      <p className="mt-6 text-gray-400 text-lg">
+        I build modern web experiences.
       </p>
 
-      <button className="bg-black text-white px-6 py-3 rounded-lg">
-        Get Started
+      <button className="mt-8 bg-white text-black px-6 py-3 rounded-xl">
+        View Projects
       </button>
     </section>
   );
