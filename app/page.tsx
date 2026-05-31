@@ -4,6 +4,7 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contacts";
 import Footer from "../components/Footer";
 import ContactForm from "@/components/ContactForm";
+import About from "@/components/About"
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Projects />
+      <About />
       <Contact />
       <ContactForm />
       <Footer />
